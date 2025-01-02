@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "tim-tam-repo"
+name = "statsbomb-analysis"
 version = "0.1.0"
-description = "A cookie cutter repo template to base other repos on"
+description = "Statsbomb analysis"
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
@@ -14,6 +14,9 @@ matplotlib = "^3.8.1"
 pyathena = "^3.0.10"
 python-dotenv = "^1.0.0"
 black = "^23.11.0"
+ipykernel = "^6.29.5"
+ipython = "^8.31.0"
+statsbombpy = "^1.14.0"
 
 
 [build-system]

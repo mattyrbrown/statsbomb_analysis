@@ -1,6 +1,6 @@
 import os
 
-from timtam.config import (
+from src.config import (
     STATIC_DIR,
     DATA_DIR,
     RAW_DIR,
